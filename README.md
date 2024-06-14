@@ -44,13 +44,4 @@ This project demonstrates how to use the DHT11 temperature and humidity sensor w
 2. **View the Output**:
     - The Serial Monitor will display the current temperature and humidity readings from the DHT11 sensor.
 
-## Code Explanation
 
-### Libraries and Definitions
-
-```cpp
-#include "DHT.h"        // Including the library of DHT11 temperature and humidity sensor
-#define DHTTYPE DHT11   // DHT 11
-
-#define dht_dpin 0      // Define the data pin for the DHT11 sensor
-DHT dht(dht_dpin, DHTTYPE);
